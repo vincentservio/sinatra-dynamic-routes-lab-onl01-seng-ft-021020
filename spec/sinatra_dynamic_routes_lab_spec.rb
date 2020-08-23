@@ -21,7 +21,7 @@ describe App do
   end
 
   describe 'GET /square/:number' do
-    it 'sends a 200 status code' do
+    it 'sends a 200 status code' do 
       get '/square/4'
 
       expect(last_response.status).to eq(200)
